@@ -1,0 +1,125 @@
+body	
+{
+	font-family: serif;
+	margin-top: 0;
+}
+#lower
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#sidebar
+{
+	height:  100%;
+	width: 10%;
+	position: fixed;
+	margin-left: 0px; 
+	margin-right: 10px;
+	background-color: #4169E1;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+#sidebar a
+{
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+#sidebar a:hover
+{
+	color: #FFB6C1;
+}
+#demo
+{
+	margin-right: 0px;
+	height: auto;
+	width: 88%;
+	float: right;
+}
+
+#sort
+{
+	padding: 5px;
+}
+
+#info-table
+{
+	background-color: none;
+}
+
+.dropbtn {
+  background-color: ##4169E1;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #F8F8FF}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #B0C4DE;
+}
+
+tr:hover 
+{
+	background-color: #ddd;
+}
+
+
+table
+{
+	text-align: center;
+	border:1px solid black;
+}
+
+th {
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4169E1;
+	color: white;
+}
+
+.buttons
+{
+	margin-bottom: 10px;
+	width: 100%;
+	align-content: center;
+}
+tr:nth-child(odd)
+{
+	background-color: #f2f2f2;
+}
